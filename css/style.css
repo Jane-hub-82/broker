@@ -330,6 +330,9 @@ body {
 .offer__logo {
   margin-bottom: 110px;
 }
+.offer__logo a {
+  z-index: 9999;
+}
 .offer__logo img {
   width: 206px;
   height: 65px;
@@ -343,8 +346,8 @@ body {
 }
 
 .context {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 33.33%;
   border-right: 2px solid #EAE6E6;
 }
